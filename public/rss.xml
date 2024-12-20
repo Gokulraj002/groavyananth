@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>Groavy Blog</title>
+    <link>https://www.groavy.com</link>
+    <description>The latest updates from Groavy</description>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 19 Dec 2024 11:14:05 GMT</lastBuildDate>
+    <pubDate>Thu, 19 Dec 2024 11:14:05 GMT</pubDate>
+    
+        <!-- Example item 1 -->
+        <item>
+          <title>Which is the Best Managed Farmland in Bangalore?</title>
+          <link>https://www.groavy.com/blogs/which-is-best-managed-farmland-in-bangalore/</link>
+          <description>Elegant Orchards Estate near Chikkaballapur is the best managed farmland near Bangalore. Developed by Groavy Buildcon, it offers valuable crops like sandalwood and mahogany, along with premium amenities. Located close to North Bengaluru, this eco-friendly farmland provides an ideal investment opportunity with professional management and sustainable practices, making it the top choice for those seeking managed farmland near Bangalore.</description>
+          <pubDate>Tue, 17 Dec 2024 18:30:00 GMT</pubDate>
+          <guid>https://www.groavy.com/blogs/which-is-best-managed-farmland-in-bangalore/</guid>
+        </item>
+      
+        <!-- Example item 2 -->
+        <item>
+          <title>Experience Bliss with Managed Farmlands Near Nandi Hills</title>
+          <link>https://www.groavy.com/blogs/managed-farmland-near-nandi-hills/</link>
+          <description>Discover the tranquility of managed farmlands near Nandi Hills, offering a blend of natural beauty and profitable investments. These eco-friendly farmlands, developed by Groavy Buildcon, feature lush plantations of sandalwood and mahogany alongside modern amenities. Strategically located near North Bengaluru and major attractions like the Isha Foundation, these farmlands ensure sustainable growth and effortless management. </description>
+          <pubDate>Mon, 09 Dec 2024 18:30:00 GMT</pubDate>
+          <guid>https://www.groavy.com/blogs/managed-farmland-near-nandi-hills/</guid>
+        </item>
+      
+  </channel>
+</rss>

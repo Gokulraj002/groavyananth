@@ -1,0 +1,180 @@
+/* FifthBlog.css */
+
+/* Global styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+  }
+  
+  /* BlogContainer styles */
+  .blog-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Content styles */
+  .content {
+    padding: 4rem 2rem;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /* MainContent styles */
+  .main-content {
+    flex: 3;
+    min-width: 300px;
+    padding-right: 2rem;
+  }
+  
+  /* Sidebar styles */
+  .sidebar {
+    flex: 1;
+    min-width: 250px;
+  }
+  
+  /* Section styles */
+  .section {
+    margin-bottom: 3rem;
+  }
+  
+  /* SectionTitle styles */
+  .section-title {
+    font-family: "Merriweather", serif;
+    color: #2c3e50;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    position: relative;
+    padding-bottom: 0.5rem;
+  }
+  
+  .section-title::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 50px;
+    height: 3px;
+    background-color: #3498db;
+  }
+  
+  /* Paragraph styles */
+  .paragraph {
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+  }
+  
+  /* List styles */
+  .list {
+    font-family: "Open Sans", serif;
+    padding-left: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* ListItem styles */
+  .list-item {
+    margin-bottom: 1rem;
+    position: relative;
+  }
+  
+  /* TableOfContents styles */
+  .table-of-contents {
+    background-color: #e3e0e0;
+    padding: 1.5rem;
+    border-radius: 8px;
+    position: sticky;
+    top: 2rem;
+  }
+  
+  /* TOCTitle styles */
+  .toc-title {
+    font-family: "Merriweather", serif;
+    color: #2c3e50;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* TOCList styles */
+  .toc-list {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  /* TOCItem styles */
+  .toc-item {
+    margin-bottom: 0.5rem;
+  }
+  
+  .toc-item a {
+    text-decoration: none;
+    color: #3498db;
+  }
+  
+  .toc-item a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Progress bar styles */
+  .progress-bar {
+    height: 5px;
+    background-color: #3498db;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transform-origin: left;
+    transform: scaleX(0);
+    transition: transform 0.2s ease;
+  }
+  
+  /* Banner styles */
+  .w-100 {
+    width: 100%;
+    height: auto;
+  }
+  
+  .position-relative {
+    position: relative;
+  }
+  
+  .position-absolute {
+    position: absolute;
+  }
+  
+  .top-50 {
+    top: 50%;
+  }
+  
+  .start-50 {
+    left: 50%;
+  }
+  
+  .translate-middle {
+    transform: translate(-50%, -50%);
+  }
+  
+  .icon-before,
+  .icon-after {
+    color: #3498db;
+    font-size: 2rem;
+  }
+  
+  .animated-icon {
+    animation: pulse 1.5s infinite;
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  

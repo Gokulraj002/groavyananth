@@ -172,7 +172,7 @@ function Sep25() {
           chance to be part of a sustainable, profitable, and luxurious venture.
           It’s not just an investment; it’s a lifestyle that combines financial
           growth with the serenity of nature.
-          <Link to="/contact"> Find out more</Link> or reach out to{" "}
+          <Link to="/contact/"> Find out more</Link> or reach out to{" "}
           <Link to="/">Groavy Buildcon</Link> for further information.
         </p>
       </div>

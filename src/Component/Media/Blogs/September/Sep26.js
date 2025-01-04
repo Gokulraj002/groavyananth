@@ -250,7 +250,7 @@ function Sep26() {
             farmland – it's a chance to grow your wealth while living in luxury.
           </p>
           <p className="para-color3">
-            Want to learn more? <Link to="/contact">Reach out to us</Link> today
+            Want to learn more? <Link to="/contact/">Reach out to us</Link> today
             and let's start growing your green future together! Trust us as your
             partner in success, and join the ranks of award-winning farmland
             projects with Groavy Buildcon.

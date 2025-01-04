@@ -57,6 +57,9 @@ import FAQ from "./Component/Home/Faq";
 import Dec2 from "./Component/Media/Blogs/December/Dec2";
 import Dec10 from "./Component/Media/Blogs/December/Dec10";
 import Dec18 from "./Component/Media/Blogs/December/Dec18";
+import Dec20 from "./Component/Media/Blogs/December/Dec20";
+import Dec26 from "./Component/Media/Blogs/December/Dec26";
+import Dec28 from "./Component/Media/Blogs/December/Dec28";
 // import RSSFeed from "./Component/Media/Blogs/RSSFeed";
 
 function App() {
@@ -224,6 +227,13 @@ function App() {
             />
             <Route path="blogs/managed-farmland-near-nandi-hills/" element={<Dec10/>} />
             <Route path="blogs/which-is-best-managed-farmland-in-bangalore/" element={<Dec18/>} />
+            <Route path="blogs/managed-farmland-near-bangalore-airport/" element={<Dec20/>} />
+            <Route path="blogs/premium-agricultural-farmland-near-chikkaballapur/" element ={<Dec26/>} />
+            <Route path="blogs/essential-things-to-know-before-purchasing-farmland/" element ={<Dec28/>} />
+
+            
+
+          
             <Route path="privacypolicies/" element={<PrivacyPolicy />} />
             <Route path="termsandcondition/" element={<TermsAndConditions />} />
             <Route path="faq/" element={<FAQ />} />

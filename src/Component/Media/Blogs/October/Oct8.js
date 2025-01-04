@@ -160,7 +160,7 @@ function Oct8() {
           <Link to="/elegantorchards">Elegant Orchards Estate</Link> today, and
           step into a future of <strong>promising returns</strong> and serene
           living. If you have any questions, feel free to{" "}
-          <Link to="/contact">contact us</Link>.
+          <Link to="/contact/">contact us</Link>.
         </p>
       </div>
     </>

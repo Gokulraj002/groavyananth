@@ -187,7 +187,7 @@ function Sep24() {
           opportunity. Whether you’re looking for consistent returns, long-term
           land appreciation, or an eco-friendly lifestyle, Elegant Orchards
           provides it all.
-          <Link to="/contact">Learn more here</Link> or contact{" "}
+          <Link to="/contact/">Learn more here</Link> or contact{" "}
           <Link to="/">Groavy Buildcon</Link> for more details.
         </p>
       </div>

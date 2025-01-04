@@ -184,7 +184,7 @@ function Sep28() {
           Discover the joy of investing in Chikkaballapur's premium farmland
           with Elegant Orchards Estate. This is more than an investment; it's a
           commitment to a sustainable future and a luxurious lifestyle.{" "}
-          <Link to="/contact">Get in touch</Link> with{" "}
+          <Link to="/contact/">Get in touch</Link> with{" "}
           <Link to="/">Groavy Buildcon</Link> for more details and join us in
           cultivating a prosperous tomorrow.
         </p>

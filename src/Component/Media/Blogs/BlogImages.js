@@ -36,6 +36,9 @@ import Oct28 from "./October/Image/Oct28.png";
 import Dec2 from "./Image/Dec2.webp";
 import Dec10 from "./Image/Nandhi.jpg";
 import Dec18 from "../../Projects/Eligent/ElegantImages/Live-Images/1.jpg";
+import Dec20 from "./Image/Dec20.webp";
+import Dec26 from "./Image/Dec26.webp";
+import Dec28 from "./Image/Dec28.webp";
 
 
 
@@ -73,7 +76,10 @@ const imageMap = {
   Oct28,
   Dec2,
   Dec10,
-  Dec18
+  Dec18,
+  Dec20,
+  Dec26,
+  Dec28
 
 };
 

@@ -391,7 +391,7 @@ function Dec2() {
               experience with professional management, eco-friendly practices,
               and luxurious amenities. Explore more about our offerings on the{" "}
               <Link to="/managed-farmland/">Managed Farmland</Link> page or reach
-              out to us through our <Link to="/contact">Contact Page</Link>.
+              out to us through our <Link to="/contact/">Contact Page</Link>.
               Take the first step towards owning a piece of this paradise and
               secure your financial and environmental legacy today!
             </p>

@@ -193,7 +193,7 @@ function Sep27() {
           Don't miss out on this opportunity to be part of the future of managed
           farmland investment. Elegant Orchards: Where luxury meets
           sustainability, and investment meets lifestyle.{" "}
-          <Link to="/contact">Contact us today</Link> to learn more about how
+          <Link to="/contact/">Contact us today</Link> to learn more about how
           you can be part of this visionary project, or explore our investment
           options to find the perfect fit for your portfolio.
         </p>

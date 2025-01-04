@@ -16,7 +16,7 @@ const Testimonials = () => {
           imageAlt: "avatar",
           name: "Sasi Kumar",
           quote:
-            "Incredibly pleased with the seamless home buying process facilitated by Groavy. Their expertise and personalized approach made finding and securing our dream home an absolute delight!.",
+            "Incredibly pleased with the seamless farmland buying process facilitated by Groavy. Their expertise and personalized approach made finding and securing our dream home an absolute delight!.",
           rating: 5,
         },
         {
@@ -24,7 +24,7 @@ const Testimonials = () => {
           imageAlt: "avatar",
           name: "Netravati",
           quote:
-            "Smooth and stress-free home buying experience with Groavy. Their knowledgeable team and efficient process made finding our perfect home a breeze. Grateful for their expertise and excellent service!.",
+            "Smooth and stress-free farmland buying experience with Groavy. Their knowledgeable team and efficient process made finding our perfect home a breeze. Grateful for their expertise and excellent service!.",
           rating: 4,
         },
    

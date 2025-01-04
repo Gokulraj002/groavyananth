@@ -188,7 +188,7 @@ function Sep30() {
 
         <p className="para-color3">
           Interested in farmland near tourist destinations?{" "}
-          <Link to="/contact">Contact us</Link> to learn more about our
+          <Link to="/contact/">Contact us</Link> to learn more about our
           offerings and achieve your investment goals with{" "}
           <b>Elegant Orchards Estate</b>!
         </p>

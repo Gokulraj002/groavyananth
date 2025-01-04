@@ -332,7 +332,7 @@ const MahoganyBlog = () => {
 
               </Paragraph>
               <Paragraph>
-                <a href="/contact" target="_blank" rel="noopener noreferrer">Contact us</a> now to be part of the marvelous chance to have mahogany land in Elegant Orchards.
+                <a href="/contact/" target="_blank" rel="noopener noreferrer">Contact us</a> now to be part of the marvelous chance to have mahogany land in Elegant Orchards.
               </Paragraph>
             </Section>
 

@@ -201,7 +201,7 @@ function Oct4() {
 
         <p className="para-color3">
           If you’re interested in embracing a luxurious farmhouse lifestyle
-          surrounded by nature, please <Link to="/contact">contact us</Link>{" "}
+          surrounded by nature, please <Link to="/contact/">contact us</Link>{" "}
           today. Explore the possibilities that await you at{" "}
           <b>Elegant Orchards Estate</b> and take the first step toward a life
           of serenity and prosperity.

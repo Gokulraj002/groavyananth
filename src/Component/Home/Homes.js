@@ -11,6 +11,7 @@ import logo from "../../images/about-us1.png";
 import BlogHome from "./BlogHome";
 import HomePagePopupForm from "./HomePagePopupForm";
 import FAQ from "./Faq";
+import Testimonials from "../Projects/Eligent/Testimonials";
 // import Chatbot from "../../ChatBot/Chatbot";
 
 const Homes = () => {
@@ -62,6 +63,8 @@ const Homes = () => {
       <HomePagePopupForm />
       {/* <Testimonials /> */}
       <BlogHome />
+      <Testimonials/>
+
       <FAQ/>
     </div>
   );

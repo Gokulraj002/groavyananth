@@ -339,7 +339,7 @@ function Dec10() {
               sustainability. Whether you are looking to invest for future
               appreciation or seeking a peaceful retreat, managed farmland near
               Nandi Hills promises to meet your needs.{" "}
-              <Link to="/contact">Connect with our experts today</Link> and
+              <Link to="/contact/">Connect with our experts today</Link> and
               discover the extraordinary potential of managed farmland near
               Nandi Hills.
             </p>

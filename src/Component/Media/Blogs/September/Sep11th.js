@@ -13,20 +13,23 @@ function Sep11th() {
   return (
     <>
       <Helmet>
-        <title>Managed Farmland - GroavyBuildcon</title>
+        <title>Managed Farmland - Farmplots for Sale Near Bangalore</title>
         <meta
           name="description"
-          content='Managed farmland, managed farmland near Bangalore, managed farmland near Chikkaballapur, farmland for sale near Nandi Hills, premium farmland in Karnataka.'
+          content='Invest in premium managed farmland and farmplots for sale near Bangalore, Chikkaballapur, and Nandi Hills. Invest in quality farmland.'
         />
         <meta
           name="keywords"
-          content="managed farmland, managed farmland near Bangalore, managed farmland near Chikkaballapur, farmland near Bangalore, farmland for sale near Nandi Hills, best managed farmland, premium farmland in Karnataka"
+          content="managed farmland, farmplots for sale near Bangalore, farmland near Bangalore, premium farmland for sale, farm plots near Chikkaballapur, farmland for sale near Nandi Hills, agricultural investment in Bangalore, best farmland investment Karnataka"
         />
         <meta name="author" content="GroavyBuildcon" />
-        <meta property="og:title" content="Managed Farmland - GroavyBuildcon" />
+        <meta
+          property="og:title"
+          content="Managed Farmland - Farmplots for Sale Near Bangalore"
+        />
         <meta
           property="og:description"
-          content='Managed farmland, managed farmland near Bangalore, managed farmland near Chikkaballapur, farmland for sale near Nandi Hills, premium farmland in Karnataka.'
+          content='Invest in premium managed farmland and farmplots for sale near Bangalore, Chikkaballapur, and Nandi Hills. Invest in quality farmland.'
         />
         <meta property="og:image" content={Banner1} />
         <meta
@@ -38,11 +41,11 @@ function Sep11th() {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="Managed Farmland - GroavyBuildcon"
+          content="Managed Farmland - Farmplots for Sale Near Bangalore"
         />
         <meta
           name="twitter:description"
-          content='Managed farmland, managed farmland near Bangalore, managed farmland near Chikkaballapur, farmland for sale near Nandi Hills, premium farmland in Karnataka.'
+          content='Invest in premium managed farmland and farmplots for sale near Bangalore, Chikkaballapur, and Nandi Hills. Invest in quality farmland.'
         />
         <meta name="twitter:image" content={Banner1} />
         <meta name="twitter:site" content="@yourtwitterhandle" />
@@ -99,11 +102,12 @@ function Sep11th() {
               tranquility and convenience. This managed farmland offers the
               perfect blend of peaceful living and high-potential investment,
               promising not only a sustainable lifestyle but also exceptional
-              long-term financial rewards. Whether you're looking for <strong>farmland
-              near Bangalore Airport</strong> or exploring farmland investment
-              opportunities, this region guarantees excellent returns and
-              growth. Don’t miss out on owning a piece of the best farmland
-              project near Bangalore – where nature meets luxury and value.
+              long-term financial rewards. Whether you're looking for{" "}
+              <strong>farmland near Bangalore Airport</strong> or exploring
+              farmland investment opportunities, this region guarantees
+              excellent returns and growth. Don’t miss out on owning a piece of
+              the best farmland project near Bangalore – where nature meets
+              luxury and value.
             </p>
 
             <div className="row">
@@ -112,8 +116,8 @@ function Sep11th() {
                   <li className="d-flex align-items-center text-muted mb-3  rounded">
                     <i className="bi bi-check-circle-fill text-success me-3"></i>
                     <span className="para-color2 text-muted">
-                      <strong className="">28 Acres of Lush Land :</strong> Ideal for farming
-                      or leisure retreats.
+                      <strong className="">28 Acres of Lush Land :</strong>{" "}
+                      Ideal for farming or leisure retreats.
                     </span>
                   </li>
                   <li className="d-flex align-items-center text-muted mb-3  rounded">
@@ -169,9 +173,9 @@ function Sep11th() {
             </Link>
           </div>
         </div>
-      <div className="container pt-5">
-        <YoutubeVideo />
-      </div>
+        <div className="container pt-5">
+          <YoutubeVideo />
+        </div>
       </div>
 
       {/* Content Section with Awards */}
@@ -329,7 +333,7 @@ function Sep11th() {
           managed farmlands, you're investing in a sustainable future and a
           profitable asset. Our team is here to guide you every step of the way.
         </p>
-        <Link to="/contact" className="text-decoration-none">
+        <Link to="/contact/" className="text-decoration-none">
           <button className="btn btn-light text-success shadow-sm px-5 py-3">
             Contact Us Today
           </button>

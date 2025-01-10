@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { HelmetProvider } from "react-helmet-async";
 import "bootstrap-icons/font/bootstrap-icons.css";
-
 import Layout from "./Component/Header/Layout";
 import Homes from "./Component/Home/Homes";
 import NoPage from "./Component/NoPage/NoPage";
@@ -27,7 +26,7 @@ import WhatsAppWidget from "./WhatsAppWidget";
 import FifthBlog from "./Component/Media/Blogs/ReadMoreBlogs/FifthBlog";
 import SixthBlog from "./Component/Media/Blogs/ReadMoreBlogs/SixthBlog";
 import SeventhBlog from "./Component/Media/Blogs/ReadMoreBlogs/SeventhBlog";
-import Chatbot from "./ChatBot/Chatbot";
+// import Chatbot from "./ChatBot/Chatbot";
 import EighthBlog from "./Component/Media/Blogs/ReadMoreBlogs/EighthBLog";
 import Sep11th from "./Component/Media/Blogs/September/Sep11th";
 import Sep12th from "./Component/Media/Blogs/September/Sep12th";
@@ -60,6 +59,7 @@ import Dec18 from "./Component/Media/Blogs/December/Dec18";
 import Dec20 from "./Component/Media/Blogs/December/Dec20";
 import Dec26 from "./Component/Media/Blogs/December/Dec26";
 import Dec28 from "./Component/Media/Blogs/December/Dec28";
+import Jan10 from "./Component/Media/Blogs/Jan2025/Jan10";
 // import RSSFeed from "./Component/Media/Blogs/RSSFeed";
 
 function App() {
@@ -80,7 +80,6 @@ function App() {
         <Analytics />
         <WhatsAppWidget />
         {/* <RSSFeed/> */}
-
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Homes />} />
@@ -225,22 +224,37 @@ function App() {
               path="blogs/managed-farmland-near-bangalore/"
               element={<Dec2 />}
             />
-            <Route path="blogs/managed-farmland-near-nandi-hills/" element={<Dec10/>} />
-            <Route path="blogs/which-is-best-managed-farmland-in-bangalore/" element={<Dec18/>} />
-            <Route path="blogs/managed-farmland-near-bangalore-airport/" element={<Dec20/>} />
-            <Route path="blogs/premium-agricultural-farmland-near-chikkaballapur/" element ={<Dec26/>} />
-            <Route path="blogs/essential-things-to-know-before-purchasing-farmland/" element ={<Dec28/>} />
-
-            
-
-          
+            <Route
+              path="blogs/managed-farmland-near-nandi-hills/"
+              element={<Dec10 />}
+            />
+            <Route
+              path="blogs/which-is-best-managed-farmland-in-bangalore/"
+              element={<Dec18 />}
+            />
+            <Route
+              path="blogs/managed-farmland-near-bangalore-airport/"
+              element={<Dec20 />}
+            />
+            <Route
+              path="blogs/premium-agricultural-farmland-near-chikkaballapur/"
+              element={<Dec26 />}
+            />
+            <Route
+              path="blogs/essential-things-to-know-before-purchasing-farmland/"
+              element={<Dec28 />}
+            />
+            <Route
+              path="blogs/farmplot-for-sale-agricultural-farmland-near-bangalore/"
+              element={<Jan10 />}
+            />
             <Route path="privacypolicies/" element={<PrivacyPolicy />} />
             <Route path="termsandcondition/" element={<TermsAndConditions />} />
             <Route path="faq/" element={<FAQ />} />
             <Route path="*" element={<NoPage />} />
           </Route>
         </Routes>
-        <Chatbot />
+        {/* <Chatbot /> */}
       </BrowserRouter>
     </HelmetProvider>
   );

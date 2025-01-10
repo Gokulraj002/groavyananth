@@ -189,18 +189,20 @@ function Dec20() {
         <section className="">
           <div className="container">
             <h2 className="text-dark font2">
-              Farmland Near Bangalore Airport: The Ideal Investment Opportunity
+              Best Farmland Near Bangalore Airport: The Ideal Investment
+              Opportunity
             </h2>
             <p className="para-color3">
-              Looking for farmland near Bangalore Airport? Groavy Buildcon
-              offers premium farmplots in close proximity to the airport,
-              providing a unique blend of agricultural potential and
+              Looking for the best farmland near Bangalore Airport? Groavy
+              Buildcon offers premium farmplots in close proximity to the
+              airport, providing a unique blend of agricultural potential and
               accessibility. These farmplots are strategically located to offer
               easy access to major transportation hubs, making them an excellent
               choice for both investment and recreational purposes. With modern
               amenities, serene surroundings, and strong growth potential, this
               farmland near Bangalore Airport is a prime opportunity for
-              investors and nature lovers alike.
+              investors and nature lovers alike. Invest in the best farmland
+              near Bangalore to secure a promising future.
             </p>
 
             <img
@@ -356,50 +358,56 @@ function Dec20() {
             <p className="para-color3">
               Moreover, Gudibanda Fort and Avala Betta, both steeped in history
               and offering excellent trekking opportunities, are a short
-              distance from the property, making it a prime spot for those who
-              love exploring historical landmarks and nature trails. These
-              tourism spots add value not just for leisure but also for the
-              potential growth of the area, boosting its appeal to tourists and
-              locals alike.
+              distance from the property. This makes it an ideal location for
+              those who love exploring historical landmarks and nature trails.
+              Located near prime farmland near Bangalore Airport, these tourism
+              spots add value not just for leisure but also for the potential
+              growth of the area, boosting its appeal to tourists and locals
+              alike.
             </p>
+
             <img
-              src={Image1} // Replace with the actual image path
+              src={Image1} 
               alt="Sustainable Living Benefits"
               className=" mb-4"
               height={"auto"}
               width={"100%"}
             />
+            
             <ul className="list-unstyled para-color3">
               <li className="mb-2 d-flex ">
                 <i className="bi bi-check-circle-fill text-success me-3"></i>
                 <span>
-                  <strong>Convenience and Accessibility:</strong>The property
+                  <strong>Convenience and Accessibility:</strong> The property
                   offers easy access to major infrastructure, ensuring
-                  convenience for residents and visitors.
+                  convenience for residents and visitors. Its proximity to
+                  farmland near Bangalore Airport enhances its strategic
+                  location.
                 </span>
               </li>
               <li className="mb-2 d-flex ">
                 <i className="bi bi-check-circle-fill text-success me-3"></i>
                 <span>
-                  <strong>Natural Beauty:</strong>Surrounded by lush greenery,
+                  <strong>Natural Beauty:</strong> Surrounded by lush greenery,
                   the property provides a serene, nature-filled environment that
-                  enhances the quality of life.
+                  enhances the quality of life. The tranquil setting near
+                  Bangalore Airport adds to its charm.
                 </span>
               </li>
               <li className="mb-2 d-flex ">
                 <i className="bi bi-check-circle-fill text-success me-3"></i>
                 <span>
-                  <strong>Eco-Friendly Lifestyle:</strong>Perfect for those
+                  <strong>Eco-Friendly Lifestyle:</strong> Perfect for those
                   looking to embrace an eco-friendly lifestyle while enjoying
-                  the peace and quiet of rural living.
+                  the peace and quiet of rural living near Bangalore Airport.
                 </span>
               </li>
               <li className="mb-2 d-flex ">
                 <i className="bi bi-check-circle-fill text-success me-3"></i>
                 <span>
-                  <strong>Managed Farmland Near Bangalore:</strong>Ideal for
-                  those seeking managed farmland near Bangalore, combining
-                  agricultural opportunities with modern amenities.
+                  <strong>Managed Farmland Near Bangalore:</strong> Ideal for
+                  those seeking managed farmland near Bangalore Airport,
+                  combining agricultural opportunities with modern amenities.
                 </span>
               </li>
             </ul>

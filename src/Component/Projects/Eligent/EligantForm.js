@@ -43,8 +43,11 @@ const EligantForm = () => {
                 land for sale and have red sandalwood and mahogany on your
                 compound. This is an excellent opportunity for those seeking a{" "}
                 <strong>premium farm sale in Chikkaballapur</strong> or looking
-                for <Link to='/blogs/best-farmland-near-chikkaballapur/'>managed farmland near Chikkaballapur</Link>.
-                Suitable for those having requirements for lands for sale in
+                for{" "}
+                <Link to="/blogs/best-farmland-near-chikkaballapur/">
+                  managed farmland near Chikkaballapur
+                </Link>
+                . Suitable for those having requirements for lands for sale in
                 Bangalore, plots for sale in Chikkaballapura, or farm land
                 around Bangalore.
               </p>

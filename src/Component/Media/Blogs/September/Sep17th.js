@@ -14,8 +14,8 @@ import YoutubeVideo from "../../videos/YoutubeVideo";
 
 function Sep17() {
   const videos = [
-    { id: "IqHIsVvx0p0", title: "Farmland Award" },
-    { id: "JiZrHF9xKe0", title: "Night View" },
+    { id: "HsJa1wrOppw", title: "Farmland Award" },
+    { id: "ApQCLJnC9pI", title: "Night View" },
     { id: "q_WEbeEbqV8", title: "3D view" },
   ];
 

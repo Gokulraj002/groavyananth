@@ -74,28 +74,20 @@ const SliderComponent = () => {
           Farmland for Sale Near Bangalore
         </h2>
         <p className="justify para-color2">
-          Explore the opportunity to own{" "}
-          <strong>farmland for sale near Bangalore</strong>, offering a blend of
-          natural beauty and investment potential. Our{" "}
-          <strong>best managed farmland</strong> in Chikkaballapur provides a
-          peaceful retreat just a short drive from the city. This agricultural
-          land, with lush greenery and a variety of fruit-bearing trees, is
-          perfect for those looking to invest in{" "}
-          <strong>agriculture land in Chikkaballapur</strong> for personal use
-          or profitable farming ventures. Located near major roadways, our
-          farmland is also just a short distance from{" "}
-          <strong>farmland near Bangalore airport</strong>, making it accessible
-          and ideal for anyone seeking to enjoy both the serene countryside and
-          the convenience of being close to the city. Take advantage of this
-          exceptional opportunity to invest in premium farmland near Bangalore,
-          with endless potential for growth and development.
+          Discover a serene retreat with our{" "}
+          <strong>farmland for sale near Bangalore</strong>. Located in
+          Chikkaballapur, this property offers lush greenery, fruit-bearing
+          trees, and a peaceful environment, just a short drive from the city.
+          With easy access to major highways and the Bangalore airport, it’s an
+          ideal investment for personal use or sustainable farming ventures.
         </p>
         <p className="justify para-color2">
-          Explore our upcoming design for future farmhouses and agricultural
-          spaces, designed to enhance the natural beauty of the land while
-          providing modern amenities and sustainable living solutions.
+          Our future plans include thoughtfully designed farmhouses and
+          agricultural spaces, blending modern amenities with sustainable living
+          solutions to enhance the natural beauty of the land.
         </p>
       </div>
+
       <div className="bg pb-5">
         <div className="container my-md-5 my-4 pt-5">
           <Carousel

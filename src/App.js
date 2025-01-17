@@ -60,6 +60,7 @@ import Dec20 from "./Component/Media/Blogs/December/Dec20";
 import Dec26 from "./Component/Media/Blogs/December/Dec26";
 import Dec28 from "./Component/Media/Blogs/December/Dec28";
 import Jan10 from "./Component/Media/Blogs/Jan2025/Jan10";
+import Jan15 from "./Component/Media/Blogs/Jan2025/Jan15";
 // import RSSFeed from "./Component/Media/Blogs/RSSFeed";
 
 function App() {
@@ -247,6 +248,10 @@ function App() {
             <Route
               path="blogs/farmplot-for-sale-agricultural-farmland-near-bangalore/"
               element={<Jan10 />}
+            />
+              <Route
+              path="blogs/managed-farmland-near-isha-foundation/"
+              element={<Jan15 />}
             />
             <Route path="privacypolicies/" element={<PrivacyPolicy />} />
             <Route path="termsandcondition/" element={<TermsAndConditions />} />

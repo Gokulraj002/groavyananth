@@ -1,43 +1,10 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Carousel } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import CarouselMulti from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-
-import ori from "./ElegantImages/Live-Images/1.jpg";
-import Layout from "./ElegantImages/Live-Images/2.jpg";
-import Entrance from "./ElegantImages/Live-Images/3.jpg";
-import Clubhouse from "./ElegantImages/Live-Images/4.jpg";
-import FullViewClubhouse from "./ElegantImages/Live-Images/5.jpg";
-import SwimmingPool from "./ElegantImages/Live-Images/6.jpg";
-import Plots from "./ElegantImages/Live-Images/7.jpg";
-import Solarplan from "./ElegantImages/Live-Images/8.jpg";
-import Trees from "./ElegantImages/Live-Images/9.jpg";
-import live10 from "./ElegantImages/Live-Images/10.jpg";
-import live11 from "./ElegantImages/Live-Images/11.jpg";
-import live12 from "./ElegantImages/Live-Images/12.jpg";
-import live13 from "./ElegantImages/Live-Images/13.jpg";
-import live14 from "./ElegantImages/Live-Images/14.jpg";
-import { Link } from "react-router-dom";
-
-const sliderImages = [
-  live10,
-
-  ori,
-  Layout,
-  live14,
-  Entrance,
-  Clubhouse,
-  FullViewClubhouse,
-  Plots,
-  Trees,
-  SwimmingPool,
-  Solarplan,
-  live11,
-  live12,
-  live13,
-];
+import axios from "axios";
 
 const responsive = {
   desktop: {
@@ -58,7 +25,36 @@ const responsive = {
 };
 
 const SliderComponent = () => {
+  const [sliderImages, setSliderImages] = useState([]);
   const [selectedImageIndex, setSelectedImageIndex] = useState(0);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
+
+  useEffect(() => {
+    const fetchPostImages = async () => {
+      try {
+        const response = await axios.get(
+          "https://info.groavy.com/wp-json/wp/v2/posts/45"
+        );
+        const content = response.data.content.rendered;
+
+        const tempDiv = document.createElement("div");
+        tempDiv.innerHTML = content;
+
+        const imgTags = tempDiv.getElementsByTagName("img");
+        const imageUrls = Array.from(imgTags).map((img) => img.src);
+
+        setSliderImages(imageUrls);
+      } catch (err) {
+        console.error("Error fetching images:", err);
+        setError("Failed to load images. Please try again later.");
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchPostImages();
+  }, []);
 
   const handleThumbnailClick = (selectedIndex) => {
     setSelectedImageIndex(selectedIndex);
@@ -76,6 +72,22 @@ const SliderComponent = () => {
     );
   };
 
+  if (loading) {
+    return (
+      <div className="text-center my-5">
+        <p>Loading images...</p>
+      </div>
+    );
+  }
+
+  if (error) {
+    return (
+      <div className="text-center my-5">
+        <p>{error}</p>
+      </div>
+    );
+  }
+
   return (
     <>
       <div className="container">
@@ -84,24 +96,15 @@ const SliderComponent = () => {
         </h2>
 
         <p className="justify para-color2">
-          Looking for a luxury farm sale in Chikkaballapur? Our{" "}
-          <Link to="/blogs/best-farmland-near-chikkaballapur/">
-            managed farmland in Chikkaballapur
-          </Link>{" "}
-          offers a perfect investment opportunity surrounded by nature’s
-          tranquility. With a variety of fruit-bearing trees including mango,
-          cashew, and jackfruit, this{" "}
-          <strong>farm land in Chikkaballapur</strong> offers a peaceful retreat
-          away from the hustle and bustle of city life. Ideal for building your
-          dream farmhouse or a profitable agricultural venture, our property is
-          also an excellent choice for those seeking{" "}
-          <strong>agriculture land near bangalore</strong> for farming.
-          Conveniently located, our property is considered the{" "}
-          <Link to="/blogs/managed-farmland-near-bangalore/">
-            Best Premium Managed Farmland Near Bangalore
-          </Link>
-          , combining accessibility to the city with a serene, natural
-          environment.
+          Discover the perfect blend of nature and investment with our managed
+          farmland in Chikkaballapur. Surrounded by tranquility, the property
+          boasts fruit-bearing trees like mango, cashew, and jackfruit, making
+          it an ideal escape from city life. Whether you dream of building a
+          serene farmhouse or starting a rewarding agricultural venture, this
+          farmland offers endless possibilities. Conveniently located near
+          Bangalore, it provides the perfect balance of accessibility and a
+          peaceful environment, making it a sought-after choice for modern
+          living and sustainable farming.
         </p>
       </div>
 
@@ -116,8 +119,9 @@ const SliderComponent = () => {
             {sliderImages.map((image, index) => (
               <Carousel.Item key={index}>
                 <img
-                  className="d-block "
-                  height={"100%"}
+                  className="d-block"
+                  height={"690px"}
+                  loading="lazy"
                   width={"100%"}
                   src={image}
                   alt={`Elegant Orchards ${index + 1}`}
@@ -131,7 +135,6 @@ const SliderComponent = () => {
             containerClass="carousel-container"
             itemClass="thumbnail-item"
             keyBoardControl={true}
-            // removeArrowOnDeviceType={["tablet", "mobile"]}
           >
             {sliderImages.map((image, index) => (
               <div
@@ -143,9 +146,10 @@ const SliderComponent = () => {
               >
                 <img
                   src={image}
-                  height={"100%"}
+                  height={"85px"}
                   width={"100%"}
-                  className="img-thumbnail"
+                  loading="lazy"
+                  className=""
                   alt={`Elegant Orchards ${index}`}
                 />
               </div>

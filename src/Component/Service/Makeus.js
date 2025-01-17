@@ -1,13 +1,10 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
-import { useInView } from "react-intersection-observer";
-import CountUp from "react-countup";
+// import { useInView } from "react-intersection-observer";
+// import CountUp from "react-countup";
 import "./service.css";
 const Makeus = () => {
-  const [ref, inView] = useInView({
-    triggerOnce: true, // Trigger the animation only once
-    threshold: 0.1, // Trigger when 10% of the element is in view
-  });
+
   return (
     <div>
       <div className="container-fluid py-5 bg-light">
@@ -191,7 +188,7 @@ const Makeus = () => {
           </div>
         </div>
       </section>
-      <div
+      {/* <div
         className="container-fluid p-2 mt-2"
         style={{ backgroundColor: "#f59b25" }}
       >
@@ -223,7 +220,7 @@ const Makeus = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

@@ -52,7 +52,7 @@ const Footer = () => {
                     to="#"
                     onClick={(e) =>
                       handleLinkClick(
-                        "https://www.facebook.com/groavybuilderspvtltd/",
+                        "https://www.facebook.com/groavybuildconpvtltd/",
                         e
                       )
                     }

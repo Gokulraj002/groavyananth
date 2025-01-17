@@ -10,7 +10,7 @@ function YoutubeVideo() {
                 allowFullScreen
                 className="img-fluid rounded"
                 loading="lazy" // Lazy loading attribute
-                style={{ width: "100%", height: "560px" }}
+                style={{ width: "100%", height: "690px" }}
               ></iframe>
       
     </div>

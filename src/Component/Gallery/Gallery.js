@@ -28,9 +28,8 @@ const Gallery = () => {
   const [visible, setVisible] = useState(false);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [refreshing, setRefreshing] = useState(false);
-
   const fetchPostImages = useCallback(async () => {
-    const postIds = [45, 30];
+  const postIds = [45, 30];
 
     try {
       setLoading(true);
@@ -42,7 +41,6 @@ const Gallery = () => {
           `https://info.groavy.com/wp-json/wp/v2/posts/${postId}`
         );
         const content = response.data.content.rendered;
-
         const tempDiv = document.createElement('div');
         tempDiv.innerHTML = content;
 
@@ -51,7 +49,6 @@ const Gallery = () => {
 
         allImageUrls.push(...imageUrls);
       }
-
       setImages(allImageUrls);
     } catch (error) {
       console.error('Error fetching post images:', error);

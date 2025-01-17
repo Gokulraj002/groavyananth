@@ -40,6 +40,7 @@ import Dec20 from "./Image/Dec20.webp";
 import Dec26 from "./Image/Dec26.webp";
 import Dec28 from "./Image/Dec28.webp";
 import Jan10 from "./Image/Jan10.webp";
+import Jan15 from "./Image/Jan15.webp";
 
 
 
@@ -81,7 +82,8 @@ const imageMap = {
   Dec20,
   Dec26,
   Dec28,
-  Jan10
+  Jan10,
+  Jan15
 
 };
 

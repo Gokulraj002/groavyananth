@@ -18,7 +18,7 @@ function Dec18() {
         <title>Which is the Best Managed Farmland in Bangalore?</title>
         <meta
           name="description"
-          content="Discover the best managed farmland in Bangalore with Groavy Buildcon. Explore sustainable farming and high-return investments near Nandi Hills."
+          content='Discover the best managed farmland in Bangalore with Groavy Buildcon. Explore sustainable farming and high-return investments near Nandi Hills.'
         />
         <meta
           name="keywords"
@@ -31,7 +31,7 @@ function Dec18() {
         />
         <meta
           property="og:description"
-          content="Discover the best managed farmland in Bangalore with Groavy Buildcon. Explore sustainable farming and high-return investments near Nandi Hills."
+          content='Discover the best managed farmland in Bangalore with Groavy Buildcon. Explore sustainable farming and high-return investments near Nandi Hills.'
         />
         <meta property="og:image" content={Images} />
         <meta
@@ -47,7 +47,7 @@ function Dec18() {
         />
         <meta
           name="twitter:description"
-          content="Discover the best managed farmland in Bangalore with Groavy Buildcon. Explore sustainable farming and high-return investments near Nandi Hills."
+          content='Discover the best managed farmland in Bangalore with Groavy Buildcon. Explore sustainable farming and high-return investments near Nandi Hills.'
         />
         <meta name="twitter:image" content={Images} />
         <meta name="twitter:site" content="@yourtwitterhandle" />

@@ -17,7 +17,7 @@ function Dec28() {
         <title>10 Tips Before Purchasing Farmland - Groavy Buildcon</title>
         <meta
           name="description"
-          content="Explore 10 essential tips to consider when buying farmland, from soil quality to water sources, to ensure informed investments."
+          content='Explore 10 essential tips to consider when buying farmland, from soil quality to water sources, to ensure informed investments.'
         />
         <meta
           name="keywords"
@@ -31,7 +31,7 @@ function Dec28() {
         />
         <meta
           property="og:description"
-          content="Explore 10 essential tips to consider when buying farmland, from soil quality to water sources, to ensure informed investments."
+          content='Explore 10 essential tips to consider when buying farmland, from soil quality to water sources, to ensure informed investments.'
         />
         <meta property="og:image" content={Image} />
         <meta
@@ -48,7 +48,7 @@ function Dec28() {
         />
         <meta
           name="twitter:description"
-          content="Explore 10 essential tips to consider when buying farmland, from soil quality to water sources, to ensure informed investments."
+          content='Explore 10 essential tips to consider when buying farmland, from soil quality to water sources, to ensure informed investments.'
         />
         <meta name="twitter:image" content={Image} />
         <meta name="twitter:site" content="@groavybuildcon" />

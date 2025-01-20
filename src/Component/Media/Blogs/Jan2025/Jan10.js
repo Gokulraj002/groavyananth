@@ -17,7 +17,7 @@ function Jan10() {
         <title>Agricultural Farmland Near Bangalore</title>
         <meta
           name="description"
-          content="Discover premium agricultural farmland near Bangalore. Explore serene managed farmland plots in Chikkaballapur, offering  high investment potential."
+          content='Discover premium agricultural farmland near Bangalore. Explore serene managed farmland plots in Chikkaballapur, offering  high investment potential.'
         />
         <meta
           name="keywords"
@@ -30,7 +30,7 @@ function Jan10() {
         />
         <meta
           property="og:description"
-          content="Discover premium agricultural farmland near Bangalore. Explore serene managed farmland plots in Chikkaballapur, offering  high investment potential."
+          content='Discover premium agricultural farmland near Bangalore. Explore serene managed farmland plots in Chikkaballapur, offering  high investment potential.'
         />
         <meta property="og:image" content={Image} />
         <meta
@@ -46,7 +46,7 @@ function Jan10() {
         />
         <meta
           name="twitter:description"
-          content="Discover premium agricultural farmland near Bangalore. Explore serene managed farmland plots in Chikkaballapur, offering  high investment potential."
+          content='Discover premium agricultural farmland near Bangalore. Explore serene managed farmland plots in Chikkaballapur, offering  high investment potential.'
         />
         <meta name="twitter:image" content={Image} />
         <meta name="twitter:site" content="@groavybuildcon" />

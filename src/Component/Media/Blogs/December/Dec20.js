@@ -17,7 +17,7 @@ function Dec20() {
         <title>Managed Farmland Near Bangalore Airport - Groavy Buildcon</title>
         <meta
           name="description"
-          content="Explore managed farmland near Bangalore Airport. Invest in sustainable, eco-friendly farmland with great connectivity and excellent returns."
+          content='Explore managed farmland near Bangalore Airport. Invest in sustainable, eco-friendly farmland with great connectivity and excellent returns.'
         />
         <meta
           name="keywords"
@@ -30,7 +30,7 @@ function Dec20() {
         />
         <meta
           property="og:description"
-          content="Explore managed farmland near Bangalore Airport. Invest in sustainable, eco-friendly farmland with great connectivity and excellent returns."
+          content='Explore managed farmland near Bangalore Airport. Invest in sustainable, eco-friendly farmland with great connectivity and excellent returns.'
         />
         <meta property="og:image" content={Image} />
         <meta
@@ -46,7 +46,7 @@ function Dec20() {
         />
         <meta
           name="twitter:description"
-          content="Explore managed farmland near Bangalore Airport. Invest in sustainable, eco-friendly farmland with great connectivity and excellent returns."
+          content='Explore managed farmland near Bangalore Airport. Invest in sustainable, eco-friendly farmland with great connectivity and excellent returns.'
         />
         <meta name="twitter:image" content={Image} />
         <meta name="twitter:site" content="@yourtwitterhandle" />
@@ -89,7 +89,7 @@ function Dec20() {
       {/* Main Content */}
       <div className="text-secondary">
         {/* Introduction */}
-        <section className="mb-5 container">
+        <section className=" container">
           <p className="para-color3">
             Looking for <b>managed farmland near Bangalore Airport?</b> Discover
             a premium 28-acre agricultural property in Jeeganahalli Village,
@@ -116,15 +116,14 @@ function Dec20() {
           <img
             src={Image}
             alt="Managed Farmland Near Bangalore Airport"
-            className="w-100 mb-4"
+            className="w-100 "
             height={"auto"}
             width={"100%"}
           />
         </section>
 
-        {/* Why Choose Managed Farmland */}
         {/* Why Invest in Managed Farmland */}
-        <section className="bg-light para-color3 pb-5">
+        <section className="bg-light para-color3 py-5">
           <div className="container">
             <h2 className="text-dark font2">
               Why Invest in Premium Managed Farmland Near Bangalore Airport?
@@ -175,7 +174,7 @@ function Dec20() {
         </section>
 
         {/* Best Farmland Near Bangalore Airport */}
-        <section className="py-5">
+        <section className="">
           <div className="container">
             <h2 className="text-dark font2">
               Best Farmland Near Bangalore Airport: A Smart Investment Choice
@@ -318,7 +317,7 @@ function Dec20() {
         </section>
 
         {/* Sustainable Living */}
-        <section className="py-4">
+        <section className="">
           <div className="container">
             <h2 className="text-dark font2">
               Embrace Sustainable Living in a Scenic Location

@@ -17,7 +17,7 @@ function Jan15() {
         <title>Managed Farmland Near Isha Foundation | Groavy</title>
         <meta
           name="description"
-          content="Discover serene farmland near Isha Foundation with managed plots perfect for investment, farming, and sustainable living."
+          content='Discover serene farmland near Isha Foundation with managed plots perfect for investment, farming, and sustainable living.'
         />
         <meta
           name="keywords"
@@ -30,7 +30,7 @@ function Jan15() {
         />
         <meta
           property="og:description"
-          content="Discover serene farmland near Isha Foundation with managed plots perfect for investment, farming, and sustainable living."
+          content='Discover serene farmland near Isha Foundation with managed plots perfect for investment, farming, and sustainable living.'
         />
         <meta property="og:image" content={Image} />
         <meta
@@ -46,7 +46,7 @@ function Jan15() {
         />
         <meta
           name="twitter:description"
-          content="Discover serene farmland near Isha Foundation with managed plots perfect for investment, farming, and sustainable living."
+          content='Discover serene farmland near Isha Foundation with managed plots perfect for investment, farming, and sustainable living.'
         />
         <meta name="twitter:image" content={Image} />
         <meta name="twitter:site" content="@groavybuildcon" />

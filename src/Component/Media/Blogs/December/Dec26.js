@@ -17,7 +17,7 @@ function Dec26() {
         <title>Premium Agricultural Farmland Near Chikkaballapur</title>
         <meta
           name="description"
-          content="Explore premium agricultural farmland near Chikkaballapur by Groavy Buildcon. Invest in sustainable farming with modern amenities and high returns."
+          content='Explore premium agricultural farmland near Chikkaballapur by Groavy Buildcon. Invest in sustainable farming with modern amenities and high returns.'
         />
         <meta
           name="keywords"
@@ -30,7 +30,7 @@ function Dec26() {
         />
         <meta
           property="og:description"
-          content="Explore premium agricultural farmland near Chikkaballapur by Groavy Buildcon. Invest in sustainable farming with modern amenities and high returns."
+          content='Explore premium agricultural farmland near Chikkaballapur by Groavy Buildcon. Invest in sustainable farming with modern amenities and high returns.'
         />
         <meta property="og:image" content={Image} />
         <meta
@@ -46,7 +46,7 @@ function Dec26() {
         />
         <meta
           name="twitter:description"
-          content="Explore premium agricultural farmland near Chikkaballapur by Groavy Buildcon. Invest in sustainable farming with modern amenities and high returns."
+          content='Explore premium agricultural farmland near Chikkaballapur by Groavy Buildcon. Invest in sustainable farming with modern amenities and high returns.'
         />
         <meta name="twitter:image" content={Image} />
         <meta name="twitter:site" content="@groavybuildcon" />
